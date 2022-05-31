@@ -16,7 +16,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "tw:build": "npx tailwindcss -i ./src/index.css -o ./public/tailwind.css --watch"
+    "tw:build": "npx tailwindcss -i ./src/index.css -o ./public/tailwind.css --watch",
+    "predeploy": "npm run build",    
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -45,5 +47,6 @@
     "tailwindcss": "^3.0.24"
   },
   "author": "Anthony Roa <anthonyroam2@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://anthonyroam.github.io/time-tracking-dashboard"
 }

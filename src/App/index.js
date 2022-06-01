@@ -83,7 +83,7 @@ function App() {
         backgroundIcon="bg-icon-self-care"
       >
         <Display 
-          index="4"
+          index="5"
           data={data}
           timeframe={timeframe}
         />
